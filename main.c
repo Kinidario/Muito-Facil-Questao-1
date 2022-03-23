@@ -1,11 +1,15 @@
+//Bibliotecas
 #include <stdio.h>
 
+//Função
 float radianosgraus(float n){
   return n*57.3;  
 }
 
 int main(void) {
+//Variáveis
   float rad;
+//Recebendo o valor do teclado
   printf("Digite um valor em radiano : ");
   scanf("%f", &rad);
 
